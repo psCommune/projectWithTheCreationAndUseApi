@@ -1,0 +1,10 @@
+﻿<Application x:Class="SuperBank.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:SuperBank" 
+             xmlns:converters="clr-namespace:SuperBank.Converters"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <converters:WindowToColorConverter x:Key="windowToColorConverter"/>
+    </Application.Resources>
+</Application>
